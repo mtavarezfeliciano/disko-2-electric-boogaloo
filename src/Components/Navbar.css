@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 5px 5px 30px black;
+  z-index: 5;
+}
+
+.ul-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  padding-left: 20px;
+}
+
+.nav-item a {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+}
+
+.nav-item a::before {
+  content: "";
+  background-color: hsl(133, 100%, 36%);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 8px;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+.logo .fa-paw {
+  font-size: 30px;
+}
+

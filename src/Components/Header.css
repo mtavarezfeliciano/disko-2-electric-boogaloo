@@ -1,0 +1,23 @@
+.bg-pic {
+    position: relative;
+    top: 5px;
+    z-index: -1;
+}
+.bg-pic img {
+    width: 100%;
+}
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 2s fadeInUp;
+  }
+  
