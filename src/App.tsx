@@ -1,5 +1,6 @@
 import Navbar from './Components/Navbar'
 import Header from './Components/Header'
+import AboutSection from './Components/About'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar />
       <Header />
+      <AboutSection />
     </>
   )
 }

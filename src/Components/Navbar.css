@@ -5,6 +5,7 @@
   padding: 2rem;
   box-shadow: 5px 5px 30px black;
   z-index: 5;
+  position: relative;
 }
 
 .ul-list {
@@ -47,5 +48,6 @@
 
 .logo .fa-paw {
   font-size: 30px;
+  color: rgb(0, 184, 40);
 }
 

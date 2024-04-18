@@ -10,6 +10,9 @@ const Header: FC = () => {
             <div className="bg-pic">
                 <img src={diskoSet} alt="diskoSet" />
             </div>
+            <div className="name-big-container fadeInUp-animation">
+                <h1 id='disko-name'>DIS<span id='disko-end'>KO</span></h1>
+            </div>
         </header>
     )
 }

@@ -1,7 +1,32 @@
+#diskoHeader {
+    position: static;
+}
+
+.name-big-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#disko-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+    font-size: 7rem;
+    letter-spacing: 40px;
+}
+
+#disko-end {
+    color: rgb(0, 184, 40);
+}
+
 .bg-pic {
-    position: relative;
-    top: 5px;
+    position: absolute;
+    top: 0;
     z-index: -1;
+    opacity: .15;
 }
 .bg-pic img {
     width: 100%;

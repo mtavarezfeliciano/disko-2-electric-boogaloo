@@ -1,0 +1,36 @@
+#aboutTitle h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+#diskoContainer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#diskoContainer1 > p {
+  padding: 40px;
+  font-size: 20px;
+  width: 70%;
+}
+
+#diskoContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 60%;
+}
+
+#diskoContainer2 > img {
+  width: 350px;
+  filter: contrast(80%);
+}
+
+#diskoContainer2 > p {
+  padding: 40px;
+  font-size: 20px;
+}
