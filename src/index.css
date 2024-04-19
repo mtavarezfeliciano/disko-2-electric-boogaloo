@@ -29,6 +29,6 @@
   list-style: none;
 }
 
-section {
-  margin: 20% 0;
+#aboutSection {
+  margin: 20% 0 0 0;
 }

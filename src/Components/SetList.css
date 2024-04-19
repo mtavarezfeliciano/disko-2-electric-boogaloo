@@ -1,0 +1,28 @@
+#setListSection {
+  margin: 10% 0;
+}
+
+.set-title h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.sets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sets li {
+  margin: 10px 0;
+  font-size: 2.5rem;
+}
+
+.sets li a {
+  color: rgb(0, 184, 40);
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.sets li a:hover {
+  color: #fff;
+}
