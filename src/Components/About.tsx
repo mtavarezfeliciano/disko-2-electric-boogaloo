@@ -6,12 +6,12 @@ import './About.css'
 
 const AboutSection: React.FC = () => {
     return (
-        <section id="aboutSection" className="about-section">
+        <section id="About" className="about-section">
             <div className="about-title" id="aboutTitle">
                 <h2>about me.</h2>
                 {data.map (item => (
                     <div key={item.id} id={`diskoContainer${item.id}`}>
-                        <img src={item.image} alt="DISKO NYC" />
+                        <img src={item.image} alt="DISKO LIVE NYC" />
                         <p>{item.description}</p>
                     </div>
                 ))}

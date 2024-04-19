@@ -29,6 +29,10 @@
   list-style: none;
 }
 
-#aboutSection {
+#About {
   margin: 20% 0 0 0;
+}
+
+html { 
+  scroll-behavior: smooth;
 }

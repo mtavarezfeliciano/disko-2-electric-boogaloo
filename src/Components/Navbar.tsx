@@ -17,7 +17,7 @@ const Navbar: FC = () => {
         <ul className="nav-list">
           {navBtns.map((btn) => (
             <li className="nav-item" key={btn}>
-              <a href={btn}>{btn.toUpperCase()}</a>
+              <a href={`#${btn}`}>{btn.toUpperCase()}</a>
             </li>
           ))}
         </ul>

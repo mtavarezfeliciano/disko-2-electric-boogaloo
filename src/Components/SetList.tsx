@@ -5,7 +5,7 @@ import './SetList.css'
 const SetList: React.FC = () => {
   const listItems = getList();
   return (
-    <section id="setListSection" className="setList-section">
+    <section id="Sets" className="setList-section">
       <div className="set-title">
         <h2>sets.</h2>
       </div>

@@ -6,7 +6,7 @@ import diskoSet from '../assets/images/disko set.png'
 
 const Header: FC = () => {
     return (
-        <header id='diskoHeader' className='disko-header'>
+        <header id='Home' className='disko-header'>
             <div className="bg-pic">
                 <img src={diskoSet} alt="diskoSet" />
             </div>
