@@ -11,7 +11,9 @@ const Navbar: FC = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <FontAwesomeIcon icon={faPaw} />
+        <a href="https://nywolf.org/meet-our-wolves/webcams/">
+          <FontAwesomeIcon icon={faPaw} />
+        </a>
       </div>
       <div className="buttons-container">
         <ul className="nav-list">
