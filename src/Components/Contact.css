@@ -1,0 +1,36 @@
+#Contact {
+  margin: 20px auto 100px auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.contact-body {
+    text-align: center;
+}
+
+.contact-body p {
+    text-align: center;
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+.fa-envelope {
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    color: white;
+}
+
+.fa-envelope:hover {
+    scale:calc(1.3);
+    transition: ease-in-out 0.3s;
+    color: rgb(0, 184, 40);
+}
